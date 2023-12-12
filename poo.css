@@ -1,0 +1,100 @@
+*{
+    margin:auto;
+    position:sticky;
+    background-color: cyan;
+    color:yellow;
+}
+
+.DIAHRHEHA{
+    color:rgb(255, 0, 255);
+
+}
+@keyframes DIAHRHEHA{
+from{background-color: cyan;}
+to{background-color: yellow}
+from{text-align:center}
+to{text-align: left;}
+}
+.DIAHRHEHA {
+    animation-name: DIAHRHEHA;
+    animation-duration: 50s;
+}
+.navigation{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(19000deg);
+    }
+}
+i{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+.HELP{
+    margin-top: 0.6em;
+  }
+  
+  .HELP span {
+    display: inline-block;
+    animation: wave-text 1s ease-in-out infinite;
+  }
+  
+  .HELP {
+    span:nth-of-type(1){ animation-delay: 0.0s; }
+    span:nth-of-type(2){ animation-delay: 0.1s; }
+    span:nth-of-type(3){ animation-delay: 0.2s; }
+    span:nth-of-type(4){ animation-delay: 0.3s; }
+    span:nth-of-type(5){ animation-delay: 0.4s; }
+  }
+  
+  @keyframes wave-text{
+    00%{
+      transform: translateY(0em);
+    }
+    60%{
+      transform: translateY(-0.6em);
+    }
+    100%{
+      transform: translateY(0em);
+    }
+}
+    @keyframes shart{
+        00%{
+          transform: translateY(-230em);
+        }
+        50%{
+          transform: translateY(30em);
+        }
+        50.4%{
+            transform: translateY(700em);
+        }
+        100%{
+          transform: translateY(900em);
+        }
+    }
+  
+  h1{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
+  
+img{
+    width: 20%;
+    height: 20%;
+     display: inline-block;
+    animation: shart 1s ease-in-out infinite;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
