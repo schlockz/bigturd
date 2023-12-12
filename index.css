@@ -1,0 +1,41 @@
+*{
+    margin:auto;
+    position:sticky;
+    background-color: cyan;
+    color:yellow;
+}
+
+.DIAHRHEHA{
+    color:rgb(255, 0, 255);
+
+}
+@keyframes DIAHRHEHA{
+from{background-color: cyan;}
+to{background-color: yellow}
+from{text-align:center}
+to{text-align: left;}
+}
+.DIAHRHEHA {
+    animation-name: DIAHRHEHA;
+    animation-duration: 50s;
+}
+.navigation{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(19000deg);
+    }
+}
+i{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}

@@ -1,0 +1,8 @@
+notes for the boostrap lessons because I dont feel like making another html
+
+col class creates a new Bootstrap Grid Column (NOTE: The col class evenly distributes the space between the columns)
+<!-- <div class="col border">1 of 2 </div> -->
+COLUMN SIZES.
+
+
+
